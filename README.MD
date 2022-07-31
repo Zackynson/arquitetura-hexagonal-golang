@@ -18,10 +18,10 @@ Nesse exemplo o programa pode rodar utilizando tanto a linha de comando quanto v
   go run ./main.go cli -a=enable -i=id_produto
   
   # desabilitar um produto
-  go run ./main.go cli -a=enable -i=id_produto
+  go run ./main.go cli -a=disable -i=id_produto
 
   # buscar um produto pelo id
-  go run ./main.go cli -a=enable -i=id_produto
+  go run ./main.go cli -a=get -i=id_produto
 ``` 
 
 # Utilizando via web 
