@@ -6,7 +6,7 @@ O app se trata de um gerenciador de produtos, onde é possivel inserir, consulta
 
 O mesmo é bem simples e não deve ser levado como exemplo de CRUD, mas sim de como é possivel reaproveitar o codigo e isolar o dominio da aplicacao das complexidades tecnicas impostas pelos frameworks e bibliotecas externas. 
 
-Nesse exemplo o programa pode rodar utilizando tanto a linha de comando quanto via requisicoes http, e a unica diferença entre os codigos é a implementação do adapter de cada uma da formas de input, sendo desnecessaria qualquer alteração nas regras das entidades da aplicação. 
+Nesse exemplo o programa pode rodar utilizando tanto a linha de comando quanto via requisicoes http, e a unica diferença entre os codigos é a implementação do adapter de cada uma da formas de input, sendo desnecessaria qualquer alteração nas regras das entidades da aplicação. O mesmo vale para o driver de banco de dados que hoje é um sqlite, mas poderia ser alterado facilmente apenas criando um novo adapter.
 
 
 # Rodando via CLI 
